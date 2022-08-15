@@ -4,7 +4,8 @@
 }
 
 #chat-screen .alt-header,
-#chat-screen .status-bar {
+
+#chat-screen .title-bar {
   top: 0;
   position: fixed;
   width: 100%;
@@ -12,9 +13,10 @@
   box-sizing: border-box;
 }
 
-#chat-screen .status-bar {
+#chat-screen .title-bar {
   z-index: 2;
 }
+
 
 #chat-screen .alt-header {
   top: 10px;

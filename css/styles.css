@@ -4,8 +4,8 @@
 @import "variables.css";
 
 /* Components */
-@import "components/status-bar.css";
-@import "components/nav-bar.css";
+@import "components/title-bar.css";
+@import "components/nav-bar-pc.css";
 @import "components/screen-header.css";
 @import "components/alt-screen-header.css";
 @import "components/user-component.css";
@@ -24,6 +24,8 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+
+  /*display: flex;*/
 }
 
 .main-screen {
